@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-block: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.209);
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 390px;
+    .logo {
+      margin-left: 10px;
+      img {
+        width: 104px;
+        height: 29px;
+      }
+    }
+    .header-buttons {
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
