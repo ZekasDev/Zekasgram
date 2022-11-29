@@ -1,13 +1,14 @@
 import { Header } from "../../components/Header/Header";
 import { Footer } from "../../components/Footer/Footer";
 import "./Home.scss";
+import { FriendsStories } from "../../components/FriendsStories/FriendsStories";
+import { Post } from "../../components/Post/Post";
 export function Home() {
   return (
     <div>
       <Header/>
-      <div className="home">
-        <h1>Conteudo da home</h1>
-      </div>
+      <FriendsStories/>
+      <Post/> 
       <Footer/>
     </div>
   );
